@@ -121,7 +121,7 @@ input, select, textarea {
 	  margin-left: auto;
 	  margin-right: auto;
 		text-align: center;
-	  width: 50%;
+	  width: 150%;
 	}
 
 	a {
@@ -3179,7 +3179,7 @@ input, select, textarea {
 			}
 
 			p {
-				text-align: justify;
+				text-align: left;
 			}
 
 		/* Section/Article */

@@ -1,0 +1,29 @@
+:root {
+	--color-lavendar: #9993b2;
+	--color-dark: #47525c;
+	--color-green: #97c3a1;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	min-height: 100vh;
+}

@@ -1,0 +1,23 @@
+.container {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(1fr, 3);
+	grid-template-areas: auto;
+	grid-template:
+		"nav-bar nav-bar nav-bar"
+		"... main main"
+		"footer footer footer";
+}
+.nav-bar {
+	grid-area: nav-bar;
+	background-color: lime;
+}
+.main {
+	grid-area: main;
+	background-color: yellow;
+}
+
+.footer {
+	grid-area: footer;
+	background-color: red;
+}
